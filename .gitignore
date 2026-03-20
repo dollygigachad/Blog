@@ -1,0 +1,70 @@
+# CodeIgniter environment
+ENVIRONMENT
+.env
+.env.local
+.env.*.local
+.env.production
+.env.testing
+
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Application folder
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/uploads/*
+!writable/cache/.gitkeep
+!writable/logs/.gitkeep
+!writable/session/.gitkeep
+!writable/uploads/.gitkeep
+
+# Testing
+/tests/_support/_generated/*
+
+# Node modules (se usar)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Debugbar
+writable/debugbar/*
+!writable/debugbar/.gitkeep
+
+# Local development
+.phpunit.result.cache
+.vscode/*.code-workspace
+.history/
+
+# Encryption keys and certificates
+*.pem
+*.key
+*.crt
+
+# Database files (SQLite)
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+
+# macOS extra
+.AppleDouble
